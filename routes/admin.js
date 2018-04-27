@@ -57,10 +57,10 @@ const books = [
   }];
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  const url = 'mongodb://library-nodejsdb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb';
-  const password = 'msCk2OEDAXV6LFBGwusgYDjAqwkGIqSrkt8fbFH2d6wnG54D35qLXa5XOGCdJTmmq2wFjZPn51lbRgxxD2ENfA==';
+  const url = process.env.URL;
+  const password = process.env.PASSWORD;
   const dbName = 'library-nodejsdb';
-  const user = 'library-nodejsdb';
+  const user = process.env.USER;
   
   (async function mongo(){
 	  let client;
