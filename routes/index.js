@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   const url = process.env.URL;
   const password = process.env.PASSWORD;
   const user = process.env.USER;
-  const dbName = 'library-nodejsdb';
+  const dbName = 'azurenodedb';
 
   (async function mongo() {
     let client;

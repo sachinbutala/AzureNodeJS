@@ -59,7 +59,7 @@ const books = [
 router.get('/', function(req, res, next) {
   const url = process.env.URL;
   const password = process.env.PASSWORD;
-  const dbName = 'library-nodejsdb';
+  const dbName = 'azurenodedb';
   const user = process.env.USER;
   
   (async function mongo(){

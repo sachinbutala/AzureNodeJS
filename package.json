@@ -18,9 +18,9 @@
   },
   "nodemonConfig":{
   "env":{
-	"URL":"mongodb://library-nodejsdb.documents.azure.com:10255/?ssl=true&replicaSet=globaldb",
-	"USER":"library-nodejsdb",
-	"PASSWORD":"msCk2OEDAXV6LFBGwusgYDjAqwkGIqSrkt8fbFH2d6wnG54D35qLXa5XOGCdJTmmq2wFjZPn51lbRgxxD2ENfA=="
+	"URL":"mongodb://azurenodedb.documents.azure.com:10255/?ssl=true",
+	"USER":"azurenodedb",
+	"PASSWORD":"zc0PYHKx56Lpvngnt0ag1peUXmzNqCl02l1vnQvxqy1nnRJYzVu1sOunExHAhWZhi439siekffW5vtROY4VhWA%3D%3D"
   }
   }
 }
